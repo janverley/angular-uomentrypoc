@@ -1,0 +1,10 @@
+<p>
+<input name="qtyValue"/> 
+<select ng-options="allUoMs" >
+</select>
+<ul >
+<li *ngFor="let uom of allUoMs">
+  {{uom.name}} ({{uom.id}})
+</li>
+</ul>
+
